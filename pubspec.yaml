@@ -3,7 +3,7 @@ description: "A new Flutter project."
 
 publish_to: "none"
 
-version: 1.0.0+1
+version: 1.0.1+2
 
 environment:
   sdk: ^3.9.0-100.2.beta
@@ -13,11 +13,27 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_launcher_icons: ^0.14.4
+  flutter_native_splash: ^2.4.7
 
-flutter_icons:
+flutter_native_splash:
+  color: "#FFFFFF"
+
+  branding: assets/icons/cw3.png
+  branding_mode: contain
+
+  android_12:
+    color: "#FFFFFF"
+    image: assets/icons/cw3.png
+
+  fullscreen: true
+
+flutter_launcher_icons:
   android: true
   ios: true
   image_path: "assets/icons/cw2.png"
+
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/icons/cw2.png"
 
 dev_dependencies:
   flutter_lints: ^5.0.0

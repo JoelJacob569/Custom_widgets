@@ -16,7 +16,7 @@ class _CustomsState extends State<Customs> {
       appBar: AppBar(
         title: Center(
           child: Text(
-            'Customs',
+            'Widget Studio',
             style: TextStyle(fontFamily: "Motion", fontSize: 50),
           ),
         ),
