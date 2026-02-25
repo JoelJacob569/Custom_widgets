@@ -1,4 +1,4 @@
-import 'package:customs/constants/menu_items.dart';
+import 'package:customs/utils/constants/menu_items.dart';
 import 'package:customs/utils/maincus.dart';
 import 'package:flutter/material.dart';
 
@@ -13,7 +13,7 @@ class _CustomsState extends State<Customs> {
   @override
   Widget build(BuildContext context) {
     final items = MenuItems.getItems(context);
-    
+
     return Scaffold(
       appBar: AppBar(
         title: Center(
